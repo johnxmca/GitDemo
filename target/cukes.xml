@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="18.275984">
+<testcase classname="Search and then place order for vegetables" name="Search for items and validate results" time="18.275984">
+<system-out><![CDATA[Given User is on Greencart landing page.....................................passed
+When User searched for Brinjal vegetables...................................passed
+And Added items to cart.....................................................passed
+And user proceeded to checkout page.........................................passed
+Then verify selected Brinjal item is been displayed in checkout page........passed
+]]></system-out>
+</testcase>
+</testsuite>

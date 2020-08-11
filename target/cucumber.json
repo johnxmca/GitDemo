@@ -1,0 +1,128 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 196200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksSearch.test()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search for items and validate results",
+        "description": "",
+        "id": "search-and-then-place-order-for-vegetables;search-for-items-and-validate-results;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 137458800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksSearch.test1()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9642239400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on Greencart landing page",
+            "match": {
+              "location": "StepsSearchCheckOut1.user_is_on_Greencart_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4211257400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User searched for Brinjal vegetables",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 18
+                }
+              ],
+              "location": "StepsSearchCheckOut1.user_searched_for_vegetables(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115752700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Added items to cart",
+            "match": {
+              "location": "StepsSearchCheckOut2.added_items_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4127063500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user proceeded to checkout page",
+            "match": {
+              "location": "StepsSearchCheckOut2.user_proceeded_to_checkout_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 42015900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify selected Brinjal item is been displayed in checkout page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brinjal",
+                  "offset": 16
+                }
+              ],
+              "location": "StepsSearchCheckOut2.verify_selected_item_is_been_displayed_in_checkout_page(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@SelTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search and then place order for vegetables",
+    "description": "",
+    "id": "search-and-then-place-order-for-vegetables",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/SearchCheckoutlist.feature"
+  }
+]
