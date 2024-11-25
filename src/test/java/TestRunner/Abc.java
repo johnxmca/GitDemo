@@ -9,6 +9,9 @@ public class Abc {
     public void AA()
     {
         System.out.println("Kreupasanam Amma");
+        System.out.println("Jojo kuttan");
+        System.out.println("Jiji kuttan");
+        System.out.println("Jes mon");
     }
 
 }
