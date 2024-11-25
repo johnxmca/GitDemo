@@ -12,6 +12,7 @@ public class Abc {
         System.out.println("Jojo kuttan");
         System.out.println("Jiji kuttan");
         System.out.println("Jes mon");
+        System.out.println("Jijo kut");
     }
 
 }
